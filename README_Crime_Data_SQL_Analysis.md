@@ -20,8 +20,6 @@ This project uses SQL to explore crime data across Indian states and major citie
 - **Relational database design** — structuring related state- and city-level datasets for analysis.
 - **Exploratory data analysis** — comparing crime counts, rates, and trends across regions.
 
-*Note: The specific database platform was not specified in the project notes. Add MySQL, PostgreSQL, or another platform only if applicable.*
-
 ## Data
 
 The project used a provided crime dataset with state- and city-level information. The analysis referenced tables covering:
@@ -32,8 +30,6 @@ The project used a provided crime dataset with state- and city-level information
 - Crime statistics by offence and city
 - Violent-crime trends across metropolitan cities
 - Population and police case-status measures
-
-The exact original data source and licensing details were not included in the available project notes.
 
 ## Workflow
 
@@ -92,26 +88,7 @@ The project explored relationships between crime rates, charge-sheeting, pendenc
 - Some city-level values in the project notes are labelled as crime counts despite being decimal values. The units and calculation method should be checked against the original tables before making direct comparisons.
 - The original dataset source, full schema definitions, and SQL query files were not included in the notes used to draft this README.
 
-## Suggested Repository Structure
 
-```text
-crime-data-sql-analysis/
-├── README.md
-├── sql/
-│   ├── database_setup.sql
-│   ├── schema_creation.sql
-│   └── analysis_queries.sql
-└── results/
-    └── findings.md
-```
-
-Only include files and folders that you actually add to the repository.
-
-## How to Use
-
-1. Load the provided crime datasets into your SQL database.
-2. Run the database and schema setup scripts, if included.
-3. Execute the analysis queries.
 4. Review the results and compare them with the findings documented in this README.
 
 ## Project Type
